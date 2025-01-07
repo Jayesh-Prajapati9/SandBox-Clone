@@ -2,6 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+.page1, .img-container {
+  height: 500px;
+  position: sticky;
+  top: 0;
+}
 .nav {
   background-color: #14181d;
   width: 100%;
@@ -9,7 +14,7 @@
   display: flex;
   align-items: center;
 }
-.nav img {
+.nav .logo {
   height: 35px;
   width: 125px;
 
@@ -35,24 +40,59 @@
   font-size: 14px;
   text-decoration: none;
   font-weight: 600;
-  
 }
-.login{
-    margin-top: 6px;
+.login {
+  margin-top: 6px;
 }
-.acc{
-    border: #dee0e2 solid 1.5px;
-    border-radius: 25px;
-    padding: 5px 12px;
-    font-size: 14px;
-    margin-right: 15px;
+.acc {
+  border: #dee0e2 solid 1.5px;
+  border-radius: 25px;
+  padding: 5px 12px;
+  font-size: 14px;
+  margin-right: 15px;
 }
-.acc:hover{
-    background-color: #0084ff;
-    border-color: #0084ff;
-    color: white;
+.acc:hover {
+  background-color: #0084ff;
+  border-color: #0084ff;
+  color: white;
 }
-.login:hover{
-    text-decoration: underline;
+.login:hover {
+  text-decoration: underline;
 }
+
+.img2 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-text{
+  transform: translateY();
+  height: 252px;
+  background-color: black;
+}
+
+.inner-logo{
+  width: 429px;
+  height: 128px;
+}
+
+.cont-1{
+  height: 450px;
+  margin-top: 45px;
+  background: radial-gradient(50% 100% at 50% 0, rgba(102, 0, 232, .5) 0, rgba(102, 0, 232, 0) 100%);
+  background-color: rgb(29,13,69);
+}
+
+.footer-bg {
+  background: radial-gradient(
+    50% 100% at 50% 100%,
+    #6929ff 0,
+    rgba(30, 84, 183, 0) 100%
+  );
+  height: 32px;
+  transform: scaleY(-1);
+  width: 100%;
+}
+
 
